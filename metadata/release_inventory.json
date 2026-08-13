@@ -1,0 +1,59 @@
+{
+  "schema_version": "rabench-release-v1",
+  "main": {
+    "manifest_rows": 17886,
+    "source_counts": {
+      "hailuo_2_3_fast": 1830,
+      "happy_horse": 1787,
+      "kling_v3": 1790,
+      "ltx_seed0": 1830,
+      "omniweaving_seed0": 1830,
+      "real": 1830,
+      "runway": 1805,
+      "seedance2": 1524,
+      "wan22_dynamic_seed0": 1830,
+      "wan22_lightning_seed0": 1830
+    },
+    "public_real_media": 1319,
+    "url_only_real": 511,
+    "generated_media": 16056
+  },
+  "humanproof": {
+    "manifest_rows": 633,
+    "unique_real_anchors": 511
+  },
+  "lastmile": {
+    "manifest_rows": 9900,
+    "rows_per_condition": {
+      "T0": 1650,
+      "T1": 1650,
+      "T2": 1650,
+      "T3": 1650,
+      "T4": 1650,
+      "T5": 1650
+    },
+    "selected_real_anchors": 150,
+    "selected_real_public": 110,
+    "selected_real_url_only": 40,
+    "auxiliary_control_rows": 900
+  },
+  "transfer_plan": {
+    "rows": 26286,
+    "by_component_and_tier": {
+      "lastmile:private": 200,
+      "lastmile:public": 8200,
+      "main:private": 511,
+      "main:public": 17375
+    },
+    "by_host": {
+      "node07": 1830,
+      "node09": 24456
+    }
+  },
+  "exclusions": [
+    "Wan2.2 fixed-duration media from the RA-Bench main split",
+    "additional generation seeds",
+    "T2V conditioning ablations",
+    "first+last-frame I2V conditioning ablations"
+  ]
+}

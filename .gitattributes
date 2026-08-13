@@ -1,0 +1,3 @@
+*.jsonl linguist-generated=true -diff
+*.csv linguist-generated=true
+

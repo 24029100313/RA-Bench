@@ -1,0 +1,17 @@
+# Dataset media are hosted on Hugging Face, not in GitHub's Git history.
+media/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+
+# Local download state and credentials.
+.cache/
+.hf_home/
+.xet_cache/
+.env
+*.token
+__pycache__/
+*.pyc
+
