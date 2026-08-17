@@ -16,6 +16,12 @@
 </p>
 
 <p align="center">
+  <a href="https://huggingface.co/papers/2608.14391">
+    <img src="https://img.shields.io/badge/Hugging%20Face%20Daily%20Papers-%231-FFD21E?logo=huggingface&logoColor=000" alt="Hugging Face Daily Papers #1">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/videos-17%2C886-0B315A" alt="17,886 videos">
   <img src="https://img.shields.io/badge/generators-9-E64A19" alt="9 generators">
   <img src="https://img.shields.io/badge/crisis_categories-10-147D78" alt="10 crisis categories">
